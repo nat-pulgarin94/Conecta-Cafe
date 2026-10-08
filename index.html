@@ -1,30 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi nombre es Natalia</title>
-    <link rel="stylesheet" href="style.css"> 
-    
-    
-    
- 
+    <title>Proyecto Conecta-Cafe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Prueba</h1>
+    <header class="encabezado">
+  <h1 class="logo">Bienvenido a Conecta Café</h1>
+  <nav class="menu">
+    <a href="#">Una App pensando en tu bienestar</a> 
+   </nav>
+</header>
 
-    
-    <p>Soy estudiante y deseo aprender mucho en este curso personalizado</p>
+<main>
+  <section class="portada">
+    <h2>Disfruta sin temores</h2>
+    <p> Conecta Café – Oriente tiene como propósito desarrollar una plataforma digital que facilite la conexión entre los cafés del Oriente Antioqueño y los usuarios, mejorando su visibilidad y acceso mediante un mapa interactivo, gestión de menús, pedidos y reseñas. Además, desde una experiencia personal con la enfermedad celíaca, el sistema busca promover una mayor cultura de inclusión alimentaria, incentivando a los cafés a desarrollar recetas y opciones que atiendan a clientes con intolerancias alimentarias como el gluten y la lactosa. Esta iniciativa no solo contribuye a la diferenciación de los negocios, sino que también impulsa el aumento de sus ventas al ampliar su público objetivo.</p>
+    <a class="boton" href="#"> Buscar opciones cerca de ti</a>
+  </section>
 
-            <ul>
-                <li> Me gusta aprender tecnologia </li>
-                <li>Me gusta la musica clasica  </li>
-               <li>Me gusta pasar tiempo a solas para descansar</li>
-               </ul>
-        
-               <button onclick="saludar()">Saludar</button>
-              <script src="script.js"></script>
-               
-    
+  <section class="seleccion-rol">
+    <label for="seleccion-rol"> Ingresa tu usuario y contraseña</label>
+    <select id="seleccion-rol">
+      <option value="Administrador">Administrador</option>
+      <option value="Cliente">Cliente</option>
+      <option value="Domiciliario">Domiciliario</option>
+    </select>
+  </section>
+
+  <section class="pasos">
+    <article class="tarjeta cliente">
+      <h3>¿Tienes alguna restricción alimentaria?</h3>
+      <p>Sin gluten.</p>
+      <p>Sin Lactosa.</p>
+      <p>Sin Azucar.</p>
+      <p>Sin Frutos Secos.</p>
+    </article>
+
+    <article class="tarjeta opciones-seguras">
+    <h3> Elige</h3>
+    <p>Revisa el menú de estos lugares seguros</p>
+  </article>
+
+  <article class="tarjeta pedido">
+    <h3> Haz tu pedido</h3>
+    <p> Recibe tu pedido en casa en menos tiempo</p>
+  </article>
+  </section>
+
+  <section class="cafés">
+    <h2>Cafés Recomendados</h2>
+
+    <div class="lista-cafés">
+      <article class="tarjeta">
+        <h3>Grano Café</h3>
+        <p class="municipio">Rionegro</p>
+        <div class=""etiquetas">
+          <span class="etiquetas">Sin gluten</span>
+          <span class="etiquetas">Vegano</span>
+          </div>
+          </article>
+
+          <article class="tarjeta">
+        <h3>Nueces y Canela</h3>
+        <p class="municipio">Rionegro - San Nicolas</p>
+        <div class=""etiquetas">
+          <span class="etiquetas">Sin gluten</span>
+          <span class="etiquetas">Sin lactosa</span>
+          </div>
+          </article>
+
+            <article class="tarjeta">
+        <h3>Mercado Raices</h3>
+        <p class="municipio">Guarne</p>
+        <div class=""etiquetas">
+          <span class="etiquetas">Sin gluten</span>
+          <span class="etiquetas">Sin lactosa</span>
+          <span class="etiquetas">Incluye opciones con frutos secos</span>
+          </div>
+          </article>
+  </section>
+</main>
+
+<footer>
+  <p>Disponibles en · Guarne ·Rionegro ·Marinilla </p>
+</footer>
+
 </body>
 </html>

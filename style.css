@@ -1,8 +1,52 @@
-body{
-    background-color:brown;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f5eb;
+  color: #14213d;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #2a9d8f;
+}
+.logo { color: white; }
+.menu a {
+color: white;
+margin-left: 16px;
+text-decoration: none;
 }
 
-h1{
-    color:coral
+.portada {
+text-align: center;
+padding: 64px 16px;
+}
 
+.boton {
+background-color: #e8743b;
+color: white;
+padding: 12px 24px;
+border-radius: 8px;
+text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.pasos {
+display: flex;
+gap: 24px;
+padding: 32px;
+}
+
+.tarjeta {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 24px;
+}
+footer {
+text-align: center;
+padding: 16px;
 }
